@@ -1,0 +1,43 @@
+Installing Python :
+
+Preferably install Python 2.7 , 64-bit(unless your laptop is 32-bit.If it is 32-bit,install 32-bit Python)
+For Windows --
+
+[64-bit Python 2.7.13] - 
+Download file -- https://www.python.org/ftp/python/2.7.13/python-2.7.13.amd64.msi
+Just follow the setup instructions.
+
+[32-bit Python 2.7.13] - 
+Download file -- https://www.python.org/ftp/python/2.7.13/python-2.7.13.msi
+Just follow the setup instructions.
+
+For Linux -- 
+The latest versions of CentOS, Fedora, Redhat Enterprise (RHEL) and Ubuntu come with Python 2.7 pre-installed.
+
+
+Installing Numpy :
+
+For Windows --
+Download https://sourceforge.net/projects/numpy/files/NumPy/1.8.1/numpy-1.8.1-win32-superpack-python2.7.exe/download
+Follow the setup instructions
+
+For Linux -- 
+Open Terminal. 
+Type these one-by-one:
+python -m pip install --upgrade pip
+pip install --user numpy scipy matplotlib ipython jupyter pandas sympy nose
+
+
+Installing OpenCV :
+
+For Windows --
+Download https://sourceforge.net/projects/opencvlibrary/files/opencv-win/2.4.13/opencv-2.4.13.exe/download
+Extract the downloaded file to C:/ drive.
+Now go to the extracted folder named 'opencv',navigate to "C:\opencv\build\python\2.7\x64"
+Copy the file cv2.pyd , paste it in C:\Python27\Lib\site-packages.
+We're done !
+
+For Linux -- 
+sudo apt-get install python2.7-opencv
+[Hopefully this should work.It did for us :) ]
+its done
